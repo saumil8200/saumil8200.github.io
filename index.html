@@ -3,226 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saumil Shah</title>
-    <link rel="stylesheet" href="style.css">
+    <title>SAUMIL SHAH</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <style>
-        .active-link {
-            /* background-color: #D8E9A8; */
-            background-color: #FFF;
-            color: #1E5128;
-            border: 1px solid #D8E9A8;
-            border: 1px solid #D8E9A8;
-            font-weight:900;
-            border-radius: 50px;
-        }
+        body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Ubuntu Mono", monospace;
+        width: 80%;
+    }
     </style>
 </head>
-<body class="bg-[#191A19] text-white grid place-content-cente max-w-sm md:max-w-6xl mx-auto h-screen font-['Inter']">
-    <div>
-        <nav class="mx-8 fixed bg-[#191A19] w-full">
-            <ul class="flex justify-start mx-auto font-light text-sm dark:text-lime-50 py-12">
-                <a href="#home">
-                    <li class="p-3">HOME</li>
-                </a>
-                <a href="#skills">
-                    <li class="p-3">SKILLS</li>
-                </a>
-                <a href="#projects">
-                    <li class="p-3">PROJECTS</li>
-                </a>
+<body class="mx-auto md:bg-gray-200">
+    <!-- <header>
+        <nav class="bg-gray-200 py-4">
+            <ul class="mx-auto flex justify-start">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
             </ul>
-        </nav>
-    </div>
-
-    <section class="md:flex mt-28 mx-8" id="home">
-        <div class="my-8 grid place-content-center">
-            <div class="text-6xl font-['Arvo'] font-bold">Hi there!</div>
-            <div class="text-3xl  font-['Inter'] font-extralight pt-2">I’m <span class="uppercase font-medium">Saumil Shah</span></div>
-            <p class="text-neutral-400 pt-4">A Software Engineer with a Bachelor's degree in Computer Engineering and 2+ years of experience in industry. Proficient in JavaScript and Python, I've worked with various technologies. I thrive in collaborative environments, love learning, and I'm always up for new challenges.</p>
-            <div class="pt-6">
-                <a href="./assets/Resume.pdf" target="_blank">
-                    <button class="bg-[#D8E9A8] text-[#1E5128] hover:border-4 hover:border-[#1E5128] hover:bg-[#FFF] p-3 font-black text-sm md:w-44 w-full rounded-lg">RESUME</button>
-                </a>
-            </div>
-        </div>
-        <div>
-            <img src="./assets/profile.png" class="md:max-w-fit h-[28rem] mx-auto w-auto rounded-3xl object-cover text-center" alt="">
-        </div>
-    </section>
-
-
-    <section id="skills">
-        <div class="mx-8">
-            <div class="text-3xl  font-['Arvo'] font-bold pt-8">What I Know</div>
-            <div class="bg-[#121212] my-8 p-8 text-xl rounded-2xl">
-                Frontend
-                <div class="md:flex p-4 text-sm" id="frontend"></div>
-            </div>
-            <div class="bg-[#121212] my-8 p-8 text-xl rounded-2xl">
-                Backend
-                <div class="md:flex p-4 text-sm" id="backend"></div>
-            </div>
-            <div class="bg-[#121212] my-8 p-8 text-xl rounded-2xl">
-                Database
-                <div class="md:flex p-4 text-sm" id="database"></div>
-            </div>
-            <div class="bg-[#121212] my-8 p-8 text-xl rounded-2xl">
-                Tools
-                <div class="md:flex p-4 text-sm" id="tools"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="mx-8">
-            <div class="text-3xl  font-['Arvo'] font-bold pt-8">Projects</div>
-            <div class="pt-4">Under Construction ... 🚧</div>
-            <div class="bg-[#121212] rounded-2xl">
-                <div class="my-8 px-8 py-4">
-                    <div class="text-xl pt-4 font-medium">
-                        Any Post
-                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
-                            Developed a Reddit-like web app with user authentication, CRUD operations, and comment threading.
-                            <ul class="text-neutral-400 md:text-base text-xs font-light list-disc px-8">
-                                <li>Integrated password reset and welcome email functionality.</li>
-                                <li>Designed user account pages for account management.</li>
-                                <li>Utilized SQL and Django's built-in features for data management.</li>
-                                <li>Created a responsive UI using HTML, CSS, JavaScript, and Tailwind CSS.</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <!-- <div class="pt-4">  
-                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
-                    </div> -->
+        </nav>        
+    </header> -->
+    <!-- <main class="mt-10"> -->
+    <main class="mt-10 md:bg-white md:p-11 md:border md:border-gray-300 md:focus:outline-none md:focus:ring-2 md:focus:ring-gray-200 md:shadow-sm">
+        <section id="home" class="mb-4">
+            <h1 class="font-bold text-4xl">SAUMIL SHAH</h1>
+            <h3 class="text-xl">Senior Software Engineer</h3>
+            <button class="bg-white px-2 mt-2 inline-block border font-bold border-gray-300 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                <a href="./assets/Resume.pdf" class="block" target="_blank">RESUME</a>
+            </button>
+            <ul class="list-none list-inside mt-2">
+                <li>
+                    <b>-</b> Software Engineer with a Bachelor's degree in Computer Engineering and over <span class="font-bold">2 years of industry experience</span>
+                </li> 
+                <li>
+                    <b>-</b> Proficient in <span class="font-bold">JavaScript and Python</span>, with strong experience in modern frameworks and libraries.
+                </li> 
+            </ul>
+        </section>
+        <section id="skills" class="mb-4">
+            <!-- <h3 class="text-2xl font-bold bg-white p-4">Tech Stack</h3> -->
+            <h2 class="text-2xl font-bold">Skills</h2>
+            <div class="px-4 mt-2">
+                <div class="font-bold">
+                    Languages:
+                    <span class="font-normal">
+                        Python,
+                        JavaScript,
+                        TypeScript,
+                        SQL
+                    </span>
                 </div>
-                <a href="https://github.com/saumil8200/AnyPost" target="_blank">
-                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
-                </a>
-            </div>
-            <div class="bg-[#121212] rounded-2xl">
-                <div class="my-8 px-8 py-4">
-                    <div class="text-xl pt-4 font-medium">
-                        Todo
-                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
-                            Developed a basic Todo app using React, Redux Toolkit, and Tailwind CSS.
-                            <ul class="text-neutral-400 md:text-base text-xs font-light list-disc px-8">
-                                <li>Features include adding, updating, and deleting tasks for a smooth user experience.</li>
-                                <li>Implemented local storage support for browsers, enabling data persistence across sessions.</li>
-                                <li>Used Redux Toolkit to manage app data effectively and state management.</li>
-                                <li>Designed with a responsive layout for easy access on different devices.</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <!-- <div class="pt-4">  
-                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
-                    </div> -->
+                <div class="font-bold">
+                    Backend Frameworks:
+                    <span class="font-normal">
+                        Django,
+                        Flask,
+                        FastAPI,
+                        Express
+                    </span>
                 </div>
-                <a href="https://saumil8200.github.io/Todo/" target="_blank">
-                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
-                </a>
-            </div>
-            <div class="bg-[#121212] rounded-2xl">
-                <div class="my-8 px-8 py-4">
-                    <div class="text-xl pt-4 font-medium">
-                        Blog App
-                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
-                            Developed a Medium like blog application using Python Django framework
-                            <ul class="text-neutral-400 md:text-base text-xs font-light list-disc px-8">
-                                <li>Implemented functionalities: User authentication (login, registration)</li>
-                                <li>Each User can create there own posts and add to specific categories also provided all CRUD operations features and user account page</li>
-                                <li>Implemented filtering functionality for blog posts based on categories and user preferences.</li>
-                                <li>Designed a responsive user interface for seamless access to blog features across devices.</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <!-- <div class="pt-4">  
-                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
-                    </div> -->
+                <div class="font-bold">
+                    Frontend Frameworks:
+                    <span class="font-normal">
+                        React,
+                        Angular
+                    </span>
                 </div>
-                <a href="https://github.com/saumil8200/blog-app" target="_blank">
-                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
-                </a>
-            </div>
-            <div class="bg-[#121212] rounded-2xl">
-                <div class="my-8 px-8 py-4">
-                    <div class="text-xl pt-4 font-medium">
-                        Ecommerce website
-                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
-                            Developing a full-featured e-commerce platform utilizing Python and the Django web framework.
-                            <ul class="text-neutral-400 md:text-base text-xs font-light list-disc px-8">
-                                <li>Implemented functionalities: User authentication (login, registration) Product browsing, Search and Management Add-to-cart Order processing</li>
-                                <li>Utilizing Django's built-in features for user management, security, and database interactions.</li>
-                                <li>Employed HTML, CSS, Tailwind and JavaScript for a user-friendly and responsive interface</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <!-- <div class="pt-4">  
-                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
-                    </div> -->
+                <div class="font-bold">
+                    Databases:
+                    <span class="font-normal">
+                        MySQL,
+                        Postgres,
+                        MongoDB
+                    </span>
                 </div>
-                <a href="https://github.com/saumil8200/ecommerce" target="_blank">
-                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
-                </a>
-            </div>
-            <div class="bg-[#121212] rounded-2xl">
-                <div class="my-8 px-8 py-4">
-                    <div class="text-xl pt-4 font-medium">
-                        Web Dev Projects
-                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
-                            Here are some web projects I've worked on. They range from small experiments to more complex creations. Take a look to see what I've been up to in web development!
-                        </p>
-                    </div>
-                    <!-- <div class="pt-4">  
-                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
-                    </div> -->
+                <div class="font-bold">
+                    Cloud:
+                    <span class="font-normal">
+                        AWS,
+                        Azure
+                    </span>
                 </div>
-                <a href="https://saumil8200.github.io/Web-Dev-Projects/" target="_blank">
-                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
-                </a>
+                <div class="font-bold">
+                    Others:
+                    <span class="font-normal">
+                        Tailwind,
+                        Bootstrap,
+                        Git,
+                        Postman,
+                        Figma
+                    </span>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <div class="mt-8 mx-auto">
-        <ul class="flex justify-center">
-            <a href="https://in.linkedin.com/in/saumil8200" target="_blank">
-                <li class="m-2 p-2">
+        </section>
+        <section id="experience" class="mb-4">
+            <h2 class="text-2xl font-bold">Experience</h2>
+            <p>Under Construction ... 🚧</p>
+            <div class="mt-2">
+                <h3 class="text-xl font-bold">CAPGEMINI</h3>
+                <div class="px-4">
+                    <div class="mb-4">
+                        <h4 class="font-bold">Senior Software Engineer</h4>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores unde animi deserunt consequatur. Voluptate reiciendis quibusdam suscipit sapiente perspiciatis soluta est dolores natus praesentium, deleniti labore, numquam quos, dolore enim.
+                        </p>
+                        <ul class="list-none list-inside px-4">
+                            <li>
+                                <b>-</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex non facere maiores harum nemo facilis libero praesentium neque architecto.
+                            </li>
+                            <li>
+                                <b>-</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex non facere maiores harum nemo facilis libero praesentium neque architecto.
+                            </li>
+                        </ul>
+                    </div>
                     <div>
-                        <img src="./assets/icons/LinkedIn.png" class="w-8 h-8" alt="">
+                        <h4 class="font-bold">Software Engineer</h4>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores unde animi deserunt consequatur. Voluptate reiciendis quibusdam suscipit sapiente perspiciatis soluta est dolores natus praesentium, deleniti labore, numquam quos, dolore enim.
+                        </p>
+                        <ul class="list-none list-inside px-4">
+                            <li>
+                                <b>-</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex non facere maiores harum nemo facilis libero praesentium neque architecto.
+                            </li>
+                            <li>
+                                <b>-</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex non facere maiores harum nemo facilis libero praesentium neque architecto.
+                            </li>
+                        </ul>
                     </div>
-                </li>
-            </a>
-            <a href="https://github.com/saumil8200" target="_blank">
-                <li class="m-2 p-2">
-                    <div>
-                        <img src="./assets/icons/GitHub.png" class="w-8 h-8" alt="">
-                    </div>
-                </li>
-            </a>
-            <a href="https://instagram.com/saumil8200" target="_blank">
-                <li class="m-2 p-2">
-                    <div>
-                        <img src="./assets/icons/Instagram.png" class="w-8 h-8" alt="">
-                    </div>
-                </li>
-            </a>
-            <a href="https://twitter.com/saumil8200" target="_blank">
-                <li class="m-2 p-2">
-                    <div>
-                        <img src="./assets/icons/TwitterX.png" class="w-8 h-8" alt="">
-                    </div>
-                </li>
-            </a>
-        </ul>
-    </div>
-    <div class="mx-auto font-light text-sm dark:text-lime-50 py-6">
-        SAUMIL SHAH
-    </div>
-    <script src="script.js"></script>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="mb-4">
+            <h2 class="text-2xl font-bold">Projects</h2>
+            <div class="mt-2">
+                <h3 class="font-bold">
+                    <span class="text-xl">AnyPost</span>
+                    <span class="font-normal">
+                        (HTML,
+                        Tailwind CSS,
+                        Python,
+                        Django,
+                        SQL)
+                    </span>
+                </h3>  
+                <div>
+                    <p>
+                        Anypost is a community-based social media platform
+                    </p>
+                    <button class="bg-white font-bold px-2 text-sm inline-block border border-gray-300 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                        <a href="https://saumil8200.pythonanywhere.com/" class="block" target="_blank">VISIT</a>
+                    </button>
+                    <button class="bg-white font-bold px-2 text-sm inline-block border border-gray-300 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                        <a href="https://github.com/saumil8200/AnyPost" class="block" target="_blank">CODE</a>
+                    </button>
+                    
+                    <ul class="list-none list-inside px-4 mt-2">
+                        <li>
+                            <b>-</b> <span class="font-bold">Registration and Login: </span> 
+                            Users can create new accounts and securely log in to existing ones.
+                            Users can create new accounts, securely log in to existing ones, and utilize password reset functionality.
+                        </li>
+                        <li>
+                            <b>-</b> <span class="font-bold">Content Creation: </span>
+                            Users can create and share personalized posts on the platform.
+                        </li>
+                        <li>
+                            <b>-</b> <span class="font-bold">Discussion and Engagement: </span>
+                            Users can engage in discussions by commenting on posts and replying to other comments, fostering community interaction.
+                        </li>
+                        <li>
+                            <b>-</b> <span class="font-bold">Post Management: </span>
+                            Users have the ability to edit and delete their own posts, ensuring control over their content.
+                        </li>
+                        <li>
+                            <b>-</b> <span class="font-bold">Account Management: </span>
+                            Users can access a dedicated account page to manage personal information and preferences efficiently.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-10 text-center">
+        
+    </footer>
 </body>
 </html>
