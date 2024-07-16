@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saumil Shah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .active-link {
+            /* background-color: #D8E9A8; */
+            background-color: #FFF;
+            color: #1E5128;
+            border: 1px solid #D8E9A8;
+            border: 1px solid #D8E9A8;
+            font-weight:900;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body class="bg-[#191A19] text-white grid place-content-cente max-w-sm md:max-w-6xl mx-auto h-screen font-['Inter']">
+    <div>
+        <nav class="mx-8 fixed bg-[#191A19] w-full">
+            <ul class="flex justify-start mx-auto font-light text-sm dark:text-lime-50 py-12">
+                <a href="#home">
+                    <li class="p-3">HOME</li>
+                </a>
+                <a href="#skills">
+                    <li class="p-3">SKILLS</li>
+                </a>
+                <a href="#projects">
+                    <li class="p-3">PROJECTS</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="md:flex mt-28 mx-8" id="home">
+        <div class="my-8 grid place-content-center">
+            <div class="text-6xl font-['Arvo'] font-bold">Hi there!</div>
+            <div class="text-3xl  font-['Inter'] font-extralight pt-2">I’m <span class="uppercase font-medium">Saumil Shah</span></div>
+            <p class="text-neutral-400 pt-4">A Software Engineer with a Bachelor's degree in Computer Engineering and 2+ years of experience in industry. Proficient in JavaScript and Python, I've worked with various technologies. I thrive in collaborative environments, love learning, and I'm always up for new challenges.</p>
+            <div class="pt-6">
+                <a href="./assets/Resume.pdf" target="_blank">
+                    <button class="bg-[#D8E9A8] text-[#1E5128] hover:border-4 hover:border-[#1E5128] hover:bg-[#FFF] p-3 font-black text-sm md:w-44 w-full rounded-lg">RESUME</button>
+                </a>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/profile.png" class="md:max-w-fit h-[28rem] mx-auto w-auto rounded-3xl object-cover text-center" alt="">
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <div class="mx-8">
+            <div class="text-3xl  font-['Arvo'] font-bold pt-8">What I Know</div>
+            <div class="bg-[#121212] my-8 p-8 text-xl rounded-2xl">
+                Frontend
+                <div class="md:flex p-4 text-sm" id="frontend"></div>
+            </div>
+            <div class="bg-[#121212] my-8 p-8 text-xl rounded-2xl">
+                Backend
+                <div class="md:flex p-4 text-sm" id="backend"></div>
+            </div>
+            <div class="bg-[#121212] my-8 p-8 text-xl rounded-2xl">
+                Database
+                <div class="md:flex p-4 text-sm" id="database"></div>
+            </div>
+            <div class="bg-[#121212] my-8 p-8 text-xl rounded-2xl">
+                Tools
+                <div class="md:flex p-4 text-sm" id="tools"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="mx-8">
+            <div class="text-3xl  font-['Arvo'] font-bold pt-8">Projects</div>
+            <div class="pt-4">Under Construction ... 🚧</div>
+            <div class="bg-[#121212] rounded-2xl">
+                <div class="my-8 px-8 py-4">
+                    <div class="text-xl pt-4 font-medium">
+                        Any Post
+                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
+                            Developed a Reddit-like web app with user authentication, CRUD operations, and comment threading.
+                            <ul class="text-neutral-400 md:text-base text-xs font-light list-disc px-8">
+                                <li>Integrated password reset and welcome email functionality.</li>
+                                <li>Designed user account pages for account management.</li>
+                                <li>Utilized SQL and Django's built-in features for data management.</li>
+                                <li>Created a responsive UI using HTML, CSS, JavaScript, and Tailwind CSS.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <!-- <div class="pt-4">  
+                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
+                    </div> -->
+                </div>
+                <a href="https://github.com/saumil8200/AnyPost" target="_blank">
+                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
+                </a>
+            </div>
+            <div class="bg-[#121212] rounded-2xl">
+                <div class="my-8 px-8 py-4">
+                    <div class="text-xl pt-4 font-medium">
+                        Todo
+                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
+                            Developed a basic Todo app using React, Redux Toolkit, and Tailwind CSS.
+                            <ul class="text-neutral-400 md:text-base text-xs font-light list-disc px-8">
+                                <li>Features include adding, updating, and deleting tasks for a smooth user experience.</li>
+                                <li>Implemented local storage support for browsers, enabling data persistence across sessions.</li>
+                                <li>Used Redux Toolkit to manage app data effectively and state management.</li>
+                                <li>Designed with a responsive layout for easy access on different devices.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <!-- <div class="pt-4">  
+                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
+                    </div> -->
+                </div>
+                <a href="https://saumil8200.github.io/Todo/" target="_blank">
+                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
+                </a>
+            </div>
+            <div class="bg-[#121212] rounded-2xl">
+                <div class="my-8 px-8 py-4">
+                    <div class="text-xl pt-4 font-medium">
+                        Blog App
+                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
+                            Developed a Medium like blog application using Python Django framework
+                            <ul class="text-neutral-400 md:text-base text-xs font-light list-disc px-8">
+                                <li>Implemented functionalities: User authentication (login, registration)</li>
+                                <li>Each User can create there own posts and add to specific categories also provided all CRUD operations features and user account page</li>
+                                <li>Implemented filtering functionality for blog posts based on categories and user preferences.</li>
+                                <li>Designed a responsive user interface for seamless access to blog features across devices.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <!-- <div class="pt-4">  
+                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
+                    </div> -->
+                </div>
+                <a href="https://github.com/saumil8200/blog-app" target="_blank">
+                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
+                </a>
+            </div>
+            <div class="bg-[#121212] rounded-2xl">
+                <div class="my-8 px-8 py-4">
+                    <div class="text-xl pt-4 font-medium">
+                        Ecommerce website
+                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
+                            Developing a full-featured e-commerce platform utilizing Python and the Django web framework.
+                            <ul class="text-neutral-400 md:text-base text-xs font-light list-disc px-8">
+                                <li>Implemented functionalities: User authentication (login, registration) Product browsing, Search and Management Add-to-cart Order processing</li>
+                                <li>Utilizing Django's built-in features for user management, security, and database interactions.</li>
+                                <li>Employed HTML, CSS, Tailwind and JavaScript for a user-friendly and responsive interface</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <!-- <div class="pt-4">  
+                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
+                    </div> -->
+                </div>
+                <a href="https://github.com/saumil8200/ecommerce" target="_blank">
+                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
+                </a>
+            </div>
+            <div class="bg-[#121212] rounded-2xl">
+                <div class="my-8 px-8 py-4">
+                    <div class="text-xl pt-4 font-medium">
+                        Web Dev Projects
+                        <p class="text-neutral-400 md:text-base text-sm font-light py-2">
+                            Here are some web projects I've worked on. They range from small experiments to more complex creations. Take a look to see what I've been up to in web development!
+                        </p>
+                    </div>
+                    <!-- <div class="pt-4">  
+                        <img src="./assets/projects/01.png" class="mx-auto md:h-96 md:w-auto rounded-2xl object-cover text-center" alt="">
+                    </div> -->
+                </div>
+                <a href="https://saumil8200.github.io/Web-Dev-Projects/" target="_blank">
+                    <button class="bg-[#333] text-neutral-50 p-3 font-black text-sm object-cover w-full rounded-lg">VIEW</button> 
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="mt-8 mx-auto">
+        <ul class="flex justify-center">
+            <a href="https://in.linkedin.com/in/saumil8200" target="_blank">
+                <li class="m-2 p-2">
+                    <div>
+                        <img src="./assets/icons/LinkedIn.png" class="w-8 h-8" alt="">
+                    </div>
+                </li>
+            </a>
+            <a href="https://github.com/saumil8200" target="_blank">
+                <li class="m-2 p-2">
+                    <div>
+                        <img src="./assets/icons/GitHub.png" class="w-8 h-8" alt="">
+                    </div>
+                </li>
+            </a>
+            <a href="https://instagram.com/saumil8200" target="_blank">
+                <li class="m-2 p-2">
+                    <div>
+                        <img src="./assets/icons/Instagram.png" class="w-8 h-8" alt="">
+                    </div>
+                </li>
+            </a>
+            <a href="https://twitter.com/saumil8200" target="_blank">
+                <li class="m-2 p-2">
+                    <div>
+                        <img src="./assets/icons/TwitterX.png" class="w-8 h-8" alt="">
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="mx-auto font-light text-sm dark:text-lime-50 py-6">
+        SAUMIL SHAH
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
