@@ -1,0 +1,149 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Work Experience - Capgemini ( Software Engineer ) Dec 2021 - Present",
+    "education": "",
+    "skills": "",
+    "projects": "",
+    "awards": ""
+  },
+  "basics": {
+    "name": "Saumil Shah",
+    "email": "saumil8200@gmail.com",
+    "phone": "9426674150",
+    "location": {
+      "address": "India"
+    },
+    "website": "https://saumil8200.github.io/portfolio"
+  },
+  "education": [
+    {
+      "institution": "Gujarat Technological Univeristy",
+      "location": "Gujarat, Ahmedabad",
+      "area": "Computer Engineering : 8.7",
+      "startDate": "2017",
+      "endDate": "2021",
+      "studyType": "B.E - "
+    }
+  ],
+  "work": [
+    {
+      "company": "890 By Capgemini ( Frontend Developer )",
+      "website": "",
+      "highlights": [
+        "Context: Contributed to a data analytics platform designed to deliver data-powered decisions with confidence.",
+        "Challenges and Solutions: Implemented multilingual features to enhance the website's accessibility for diverse user groups and collaborated closely with the backend team to integrate complex APIs.",
+        "Achievements: Successfully designed and developed UI components according to design specifications, resulting in improved user satisfaction and engagement."
+      ],
+      "position": "Angular, HTML, SCSS, Bootstrap"
+    },
+    {
+      "highlights": [
+        "Context: Developed a portal providing college students with comprehensive information on colleges, courses, fees, and job opportunities.",
+        "Challenges and Solutions: Designed the UX and UI to create a seamless and visually appealing user experience while ensuring effective API integration for smooth data flow.",
+        "Achievements: Enhanced the user experience through meticulous design, leading to increased user retention and satisfaction."
+      ],
+      "company": "Meduglobal ( Frontend Developer & UX Designer )",
+      "position": "Angular, HTM, CSS, Bootstrap, UX Design"
+    },
+    {
+      "highlights": [
+        "Context: Created a website showcasing ongoing projects, events, and hackathons for internal departmental use, allowing users to register as mentors or participants.",
+        "Challenges and Solutions: Designed UI components based on specific design specifications and ensured seamless data flow through effective API integration.",
+        "Achievements: Facilitated smooth registration processes and improved user interaction with the site through efficient UI development."
+      ],
+      "company": "Millennial Garage Internal Department Website ( Frontend Developer )",
+      "position": "Angular, HTM, CSS, Bootstrap"
+    },
+    {
+      "highlights": [
+        "Completed training in Azure data tools: Azure Data Factory, PySpark, and Databricks.",
+        "Successfully executed Proof of Concepts (POCs) in data engineering.",
+        "Collaborated with teams to implement data processing solutions."
+      ],
+      "company": "Azure Data Engineering POC",
+      "position": "Azure, Azure Data Factory, PySpark, Databricks"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Tailwind",
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "React"
+      ]
+    },
+    {
+      "keywords": [
+        "Python",
+        "Django"
+      ],
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "SQL",
+        "My SQL",
+        "Postgre SQL"
+      ],
+      "name": "Database"
+    },
+    {
+      "keywords": [
+        "Azure",
+        "Azure Data Factory",
+        "PySpark"
+      ],
+      "name": "Data Engineering"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Postman",
+        "Jira",
+        "Figma",
+        "Databricks",
+        "VS Code"
+      ],
+      "name": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Any Post",
+      "description": "Anypost is a social media application akin to Reddit, offering users the ability to register, log in, create posts, engage in discussions through comments, and manage their account settings. It provides a platform for personalized content sharing and community interaction. Users can securely authenticate their accounts, create, edit, and delete posts, participate in comment threads, and efficiently manage personal information and posts from their account page.",
+      "keywords": [
+        "HTML",
+        "Tailwind CSS",
+        "Python",
+        "Django",
+        "SQL"
+      ],
+      "url": "saumil8200.pythonanywhere.com"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Rising Star",
+      "date": "Dec 2022",
+      "awarder": "Insight & Data - Capgemini",
+      "summary": "Recognized for outstanding performance and contribution to the Insights and Data department at Capgemini."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "skills",
+    "work",
+    "education",
+    "projects",
+    "awards"
+  ]
+}
