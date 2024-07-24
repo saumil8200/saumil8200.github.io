@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saumil Shah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
         .container-s {
@@ -11,104 +14,54 @@
         }
     </style>
 </head>
-<body class="bg-slate-200 dark:bg-[#191A19] text-gray-800 dark:text-white transition-colors duration-500 mx-auto">
+<body class="bg-gradient-to-r from-[#191A19] to-[#000] text-white font-['Inter']">
 
-    <header class="py-14">
-        <div class="container-s mx-auto">
-            <div class="flex justify-between items-center">
-                <div>
-                    <img src="./assets/profile1.png" class="mb-4 w-52 h-52 rounded-full">
-                    <h1 class="text-4xl font-extrabold">Saumil Shah</h1>
-                    <h2 class="text-2xl text-gray-600 dark:text-gray-300 mt-2">Senior Software Engineer @ Capgemini</h2>
-                    <p class="mt-6 text-gray-600 dark:text-gray-300">
-                        Software Engineer with a Bachelor's degree in Computer Engineering and over <span class="font-bold text-gray-800 dark:text-white">2 years of industry experience</span><br>
-                        Proficient in <span class="font-bold text-gray-800 dark:text-white">JavaScript and Python</span>, with strong experience in modern frameworks and libraries.
-                    </p>
-                    <a href="./assets/Resume.pdf" target="_blank" class="mt-4 inline-block px-4 py-2 font-semibold dark:bg-white dark:text-gray-800 bg-[#191A19] text-white">
-                        View Resume
-                    </a>
-                </div>
+    <header class="h-screen place-content-center">
+        <div class="container-s mx-auto pl-8">
+            <img src="./assets/profile1.png" class="mb-4 w-52 h-52 rounded-full shadow-lg">
+            <div class="max-w-lg">
+                <h1 class="text-4xl font-black">Saumil Shah</h1>
+                <h2 class="text-2xl text-gray-400 mt-1">Software Engineer</h2>
+                <p class="mt-6 text-gray-400">Software Engineer with a Bachelor's degree in Computer Engineering and over <span class="font-bold text-white">2 years of industry experience</span><br>
+                Proficient in <span class="font-bold text-white">JavaScript and Python</span>, with strong experience in modern frameworks and libraries.</p>
+                <a href="./assets/Resume.pdf" target="_blank">
+                    <button class="bg-[#FFF] mt-4 text-[#191A19] hover:bg-[#F0F0F0] px-6 py-3 text-sm font-bold rounded-lg">View Resume</button>
+                </a>                 
             </div>
         </div>
     </header>
 
-    <main class="container-s mx-auto py-8">
+    <main class="container-s mx-auto">
 
-        <section id="skills" class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <section id="skills" class="mt-16">
+            <h2 class="text-3xl font-bold mb-8">What I Know</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="p-4 bg-gray-100 dark:bg-[#101010]">
+                <div class="p-4 bg-[#000] rounded-lg">
                     <h3 class="text-lg font-semibold">Languages</h3>
-                    <p class="text-gray-700 dark:text-gray-300 mt-2">Python, JavaScript, TypeScript, SQL</p>
+                    <p class="text-gray-300 mt-2">Python, JavaScript, TypeScript, SQL</p>
                 </div>
-                <div class="p-4 bg-gray-100 dark:bg-[#101010]">
+                <div class="p-4 bg-[#000] rounded-lg">
                     <h3 class="text-lg font-semibold">Backend Frameworks</h3>
-                    <p class="text-gray-700 dark:text-gray-300 mt-2">Django, Flask, FastAPI, Express</p>
+                    <p class="text-gray-300 mt-2">Django, Flask, FastAPI, Express</p>
                 </div>
-                <div class="p-4 bg-gray-100 dark:bg-[#101010]">
+                <div class="p-4 bg-[#000] rounded-lg">
                     <h3 class="text-lg font-semibold">Frontend Frameworks</h3>
-                    <p class="text-gray-700 dark:text-gray-300 mt-2">React, Angular</p>
+                    <p class="text-gray-300 mt-2">React, Angular</p>
                 </div>
-                <div class="p-4 bg-gray-100 dark:bg-[#101010]">
+                <div class="p-4 bg-[#000] rounded-lg">
                     <h3 class="text-lg font-semibold">Databases</h3>
-                    <p class="text-gray-700 dark:text-gray-300 mt-2">MySQL, Postgres, MongoDB</p>
+                    <p class="text-gray-300 mt-2">MySQL, Postgres, MongoDB</p>
                 </div>
-                <div class="p-4 bg-gray-100 dark:bg-[#101010]">
+                <div class="p-4 bg-[#000] rounded-lg">
                     <h3 class="text-lg font-semibold">Cloud</h3>
-                    <p class="text-gray-700 dark:text-gray-300 mt-2">AWS, Azure</p>
+                    <p class="text-gray-300 mt-2">AWS, Azure</p>
                 </div>
-                <div class="p-4 bg-gray-100 dark:bg-[#101010]">
+                <div class="p-4 bg-[#000] rounded-lg">
                     <h3 class="text-lg font-semibold">Others</h3>
-                    <p class="text-gray-700 dark:text-gray-300 mt-2">Tailwind, Bootstrap, Git, Postman, Figma</p>
+                    <p class="text-gray-300 mt-2">Tailwind, Bootstrap, Git, Postman, Figma</p>
                 </div>
             </div>
         </section>
-        
-        <!-- <section id="experience" class="mb-8">
-            <h2 class="text-2xl font-bold mb-4 pb-2">Experience</h2>
-            <div class="space-y-8">
-                
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Capgemini</h3>
-                    <div class="border-l-2 border-gray-300 dark:border-gray-600 pl-4">
-                        
-                        <div class="mb-6">
-                            <h4 class="text-lg font-semibold text-gray-800 dark:text-white">Senior Software Engineer</h4>
-                            <p class="text-gray-600 dark:text-gray-400 mb-2">July 2024 - Present</p>
-                            <p class="text-gray-700 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, minima qui libero vel quia id cupiditate quis magnam aliquam consequatur ducimus accusantium sed autem nobis! Quaerat dolores eaque delectus. Sint?</p>
-                        </div>
-                        
-                        <div>
-                            <h4 class="text-lg font-semibold text-gray-800 dark:text-white">Software Engineer</h4>
-                            <p class="text-gray-600 dark:text-gray-400 mb-2">Dec 2021 - June 2024</p>
-                            <p class="text-gray-700 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, minima qui libero vel quia id cupiditate quis magnam aliquam consequatur ducimus accusantium sed autem nobis! Quaerat dolores eaque delectus. Sint?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        
-
-        <!-- <section id="projects" class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">Projects</h2>
-            <div>
-                <div class="mb-8">
-                    <h3 class="text-lg font-semibold">AnyPost</h3>
-                    <p class="mt-2">Anypost is a community-based social media platform.</p>
-                    <div class="mt-2">
-                        <a href="https://saumil8200.pythonanywhere.com/" target="_blank" class="inline-block bg-gray-300 dark:bg-[#333] hover:bg-gray-400 dark:hover:bg-[#444] px-4 py-2 rounded-md text-gray-800 dark:text-white font-semibold shadow-sm transition duration-300">VISIT</a>
-                        <a href="https://github.com/saumil8200/AnyPost" target="_blank" class="inline-block bg-gray-300 dark:bg-[#333] hover:bg-gray-400 dark:hover:bg-[#444] px-4 py-2 ml-2 rounded-md text-gray-800 dark:text-white font-semibold shadow-sm transition duration-300">CODE</a>
-                    </div>
-                    <ul class="list-disc list-inside mt-4">
-                        <li>Registration and Login functionality.</li>
-                        <li>Content creation and sharing.</li>
-                        <li>Discussion and engagement features.</li>
-                        <li>Post management capabilities.</li>
-                        <li>Account management options.</li>
-                    </ul>
-                </div>
-            </div>
-        </section> -->
 
     </main>
 
@@ -117,6 +70,6 @@
             <!-- <p class="text-sm font-bold">@saumil8200</p> -->
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
