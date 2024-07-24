@@ -1284,6 +1284,10 @@ video {
     margin-left: 4rem;
   }
 
+  .md\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .md\:h-80 {
     height: 20rem;
   }
