@@ -1,9 +1,0 @@
-{
-    "skills": {
-      "frontend": ["HTML", "CSS", "Bootstrap", "Tailwind", "JavaScript", "TypeScript", "Angular", "React"],
-      "backend": ["Python", "Flask", "Django"],
-      "database": ["MySQL", "MongoDB", "PostgreSQL"],
-      "tools": ["Git", "Figma", "Jira", "Postman"]
-    }
-  }
-  
