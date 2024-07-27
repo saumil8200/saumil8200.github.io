@@ -654,6 +654,10 @@ video {
   height: 1.75rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-44 {
   width: 11rem;
 }
@@ -672,6 +676,10 @@ video {
 
 .w-7 {
   width: 1.75rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .list-inside {
