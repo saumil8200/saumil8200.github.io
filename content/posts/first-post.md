@@ -1,8 +1,8 @@
 ---
-title: "Post 1"
-author: "Saumil Shah"
+title: "Soon will start some blogs."
+# author: "Saumil Shah"
 date: 2026-04-10
-draft: true
+draft: false
 ---
 
 Soon will start some blogs.
