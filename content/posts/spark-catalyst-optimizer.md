@@ -2,7 +2,7 @@
 title: "Spark Catalyst Optimizer"
 # author: "Saumil Shah"
 date: 2026-04-11
-draft: false
+draft: true
 ---
 
 If we remember Catalyst in chemistry, the Definition of it is a substance that makes a chemical reaction happen faster.

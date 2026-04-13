@@ -1,0 +1,29 @@
+baseURL = "https://saumil8200.github.io/"
+locale = 'en-us'
+title = 'Saumil Shah'
+theme = 'xmin' 
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+[[menu.main]]
+name = "Gallery"
+url = "/gallery/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 4
+
+[[menu.main]]
+name = "Subscribe"
+url = "/index.xml"
+weight = 5
