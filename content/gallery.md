@@ -2,7 +2,7 @@
 title: "Gallery"
 ---
 
-![Photo 1](/images/gallery/01.jpg)
+<!-- ![Photo 1](/images/gallery/01.jpg)
 
 ![Photo 2](/images/gallery/02.jpg)
 
@@ -12,4 +12,4 @@ title: "Gallery"
 
 ![Photo 5](/images/gallery/05.jpg)
 
-![Photo 6](/images/gallery/06.jpg)
+![Photo 6](/images/gallery/06.jpg) -->
