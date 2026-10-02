@@ -1,0 +1,26 @@
+
+{{ partial "header.html" . }}
+
+{{ if not .IsHome }}
+<h1>{{ .Title | markdownify }}</h1>
+{{ end }}
+
+{{ .Content }}
+
+{{ if not .IsHome }}
+  {{ $pages := where .Pages "Section" "!=" "" }}
+
+  {{ range ($pages.GroupByDate "2006") }}
+    <h2>{{ .Key }}</h2>
+    <ul>
+      {{ range .Pages.ByDate.Reverse }}
+        <li>
+          <span class="date">{{ .Date.Format "02 January" }} - </span>
+          <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
+
+{{ partial "footer.html" . }}
