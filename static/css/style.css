@@ -250,6 +250,8 @@ footer a:hover {
 
 @media (max-width: 480px) {
   body {
+    max-width: 80%;
+    margin: 0 auto;
     padding: 1em;
   }
 
